@@ -16,6 +16,5 @@
     "scripts": [
       "background.js"
     ]
-  },
-  "content_security_policy": "script-src 'self' https://towtruck.mozillalabs.com; object-src 'self'"
+  }
 }
