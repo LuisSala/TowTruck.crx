@@ -1,20 +1,29 @@
 {
-  "name": "TowTruck Extension",
+  "name": "TowTruck.crx",
   "version": "0.1",
   "manifest_version": 2,
   "minimum_chrome_version": "26.0.1410.65",
-  "description": "An Unoffical Extension for Mozilla's TowTruck",
+  "description": "An Unoffical Extension for Mozilla's TowTruck -- A Real-time Collaboration Service",
   "permissions": [
     "activeTab",
     "tabs",
     "<all_urls>"
   ],
   "browser_action": {
-    "default_title": "TowTruck!"
+    "default_title": "TowTruck!",
+    "default_icon": {
+      "19": "icon/19.png",
+      "38": "icon/38.png"
+    }
   },
   "background": {
     "scripts": [
       "background.js"
     ]
+  },
+  "icons": {
+    "16": "icon/16.png",
+    "48": "icon/48.png",
+    "128": "icon/128.png"
   }
 }
