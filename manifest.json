@@ -3,7 +3,7 @@
   "version": "0.1",
   "manifest_version": 2,
   "minimum_chrome_version": "26.0.1410.65",
-  "description": "An Unoffical Exntesion for Mozilla's TowTruck",
+  "description": "An Unoffical Extension for Mozilla's TowTruck",
   "permissions": [
     "activeTab",
     "tabs",
