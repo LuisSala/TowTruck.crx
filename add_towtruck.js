@@ -5,7 +5,7 @@
 
     var i, scripts = document.getElementsByTagName('script');
     for (i = 0; i < scripts.length; i++) {
-        if (scripts[i].src === 'https://towtruck.mozillalabs.com/towtruck.js') {
+        if (scripts[i].src.indexOf('towtruck.js') !== -1) {
             return;
         }
     }
