@@ -1,0 +1,21 @@
+{
+  "name": "TowTruck Extension",
+  "version": "0.1",
+  "manifest_version": 2,
+  "minimum_chrome_version": "26.0.1410.65",
+  "description": "An Unoffical Exntesion for Mozilla's TowTruck",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_title": "TowTruck!"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_security_policy": "script-src 'self' https://towtruck.mozillalabs.com; object-src 'self'"
+}
