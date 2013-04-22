@@ -3,6 +3,8 @@ TowTruck.crx
 
 A Chrome extension for [Mozilla's TowTruck](https://towtruck.mozillalabs.com/) -- a real-time collaboration service
 
+![](http://i.imgur.com/Lx9NUet.png)
+
 ## License
 
 The source code is released under MIT license.
