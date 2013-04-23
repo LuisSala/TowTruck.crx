@@ -1,8 +1,8 @@
 {
   "name": "TowTruck.crx",
-  "version": "0.1",
+  "version": "0.1.1",
   "manifest_version": 2,
-  "minimum_chrome_version": "25.0",
+  "minimum_chrome_version": "23.0",
   "description": "An Unoffical Extension for Mozilla's TowTruck -- A Real-time Collaboration Service",
   "permissions": [
     "tabs",
